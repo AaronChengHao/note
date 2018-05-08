@@ -4,6 +4,13 @@
 
 session 和 cookie 的区别与联系？
 
+- 数据存储：
+  session 会话数据储存在服务端， cookie 数据存储在用户浏览器中。
+- 标识传递：
+  session_id 或者 cookie_name 都是通过 http 请求头的 cookie 字段传递。
+- 数据保护性
+  session 数据在服务端，具有很好的保护。 cookie 是透明的。
+  
 ## 第 2 问
 
 什么是单点登录，如何实现单点登录？
